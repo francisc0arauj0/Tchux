@@ -1,0 +1,7 @@
+{
+    "explorer.compactFolders": false,
+    
+    "editor.tabSize": 4,
+    "editor.indentSize": "tabSize",
+    "editor.insertSpaces": false
+}
