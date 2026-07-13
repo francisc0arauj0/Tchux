@@ -2,7 +2,7 @@
 
 <p align=center>
 	<a href="">
-		<img alt="Tchux 0.0.0 Release" src="https://badgen.net/static/Release/0.0.0/blue">
+		<img alt="Tchux 0.0.0 Release" src="https://badgen.net/static/Release/0.0.0/blue" width="100px">
 	</a>
 </p>
 
