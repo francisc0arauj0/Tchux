@@ -12,7 +12,7 @@ Tchux is an operating system that I created as a hands-on learning project. Its 
 
 ## Building
 
-To build Tchux it is strongly advised use [Tchux Cross-Compiler](#cross-compiler) and [Visual Studio Code](https://code.visualstudio.com/)
+To build Tchux it is strongly advised use TxCC and [Visual Studio Code](https://code.visualstudio.com/)
 
 ## TxCC
 
@@ -29,6 +29,13 @@ Install
 ```bash
 ./scripts/cc.sh arch-elf /home/your_user/Tchux/txcc
 ```
+
+## Contributing 
+
+We are always looking for developers! Check [CONTRIBUTE.md]() if you are willing to participate.
+
+> [!WARNING]
+> We do not accept any AI-generated code. You need to be able to explain what each part of the code does.
 
 ## License
 
