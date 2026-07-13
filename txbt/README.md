@@ -2,7 +2,7 @@
 
 <p align=center>
 	<a href="">
-		<img alt="TxBT 0.0.0 Release" src="https://badgen.net/static/Version/1.0.0/blue">
+		<img alt="TxBT 0.0.0 Release" src="https://badgen.net/static/Version/1.0.0/blue" width="100px">
 	</a>
 </p>
 
