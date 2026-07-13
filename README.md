@@ -13,7 +13,7 @@ Tchux is an operating system that I created as a hands-on learning project. Its 
 
 ## Building
 
-To build the system it is strongly advised use the [Tchux Build Tools](https://github.com/francisc0arauj0/Tchux/tree/main/txbt) and [Visual Studio Code](https://code.visualstudio.com/)
+To build Tchux it is strongly advised use [Tchux Build Tools](https://github.com/francisc0arauj0/Tchux/tree/main/txbt) and [Visual Studio Code](https://code.visualstudio.com/)
 
 
 ## License
