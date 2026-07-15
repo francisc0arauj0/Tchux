@@ -36,10 +36,10 @@ PREFIX="$(realpath "$2")"
 
 echo "${C_YELLOW}============================"
 echo "TxCC Info"
-echo Binutils Version: $BINUTILS
-echo GCC Version: $GCC
-echo GDB Version: $GDB
-echo NProc: $JOBS
+echo "Binutils Version: $BINUTILS"
+echo "GCC Version: $GCC"
+echo "GDB Version: $GDB"
+echo "NProc: $JOBS"
 echo "============================\n${NO_FORMAT}"
 
 sleep 2
