@@ -12,23 +12,7 @@ Tchux is an operating system that I created as a hands-on learning project. Its 
 
 ## Building
 
-To build Tchux it is strongly advised use TxCC and [Visual Studio Code](https://code.visualstudio.com/)
-
-### TxCC
-
-You need to have Texinfo installed to build Binutils. You need to have GMP, MPC, and MPFR installed to build GCC
-
-[More details](https://wiki.osdev.org/GCC_Cross-Compiler#Installing_Dependencies)
-
-Others:
-- xz
-- bzip2
-
-Install
-
-```bash
-./scripts/cc.sh arch-elf /home/your_user/Tchux/txcc
-```
+To build Tchux it is strongly advised use [TxTools](https://github.com/francisc0arauj0/Tchux/tree/main/txtools) and [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Contributing 
 
