@@ -10,14 +10,19 @@ case "$1" in
 		shift
 		"$SCRIPT_DIR/scripts/cross-compiler.sh"
 		;;
+	b-txboot)
+		shift
+		cd txboot
+		make all
+		;;
 	*)
 		echo "Usage:"
 		echo "$0 cross-compiler"
-		echo "$0 build txboot"
-		echo "$0 build txkrnl"
-		echo "$0 debug txkrnl"
-		echo "$0 build all"
-		echo "$0 build iso"
+		echo "$0 b-txboot"
+		echo "$0 b-txkrnl"
+		echo "$0 d-txkrnl"
+		echo "$0 b-all"
+		echo "$0 b-iso"
 		echo "$0 run\n"
 		;;
 esac
