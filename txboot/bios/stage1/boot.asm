@@ -90,11 +90,11 @@ align 4
 dapack:
 	db 0x10
 	db 0
-	blkcnt: dw 16		; int 13 resets this to # of blocks actually read/written
-	db_add: dw 0x7E00	; memory buffer destination address (0x0000:0x7E00)
-	dw 0				; in memory page zero
-	d_lba: dd 1			; put the lba to read in this spot
-	dd 0				; more storage bytes only for big lba's ( > 4 bytes )
+	blkcnt: dw 16       ; int 13 resets this to # of blocks actually read/written
+	db_add: dw 0x7E00   ; memory buffer destination address (0x0000:0x7E00)
+	dw 0                ; in memory page zero
+	d_lba: dd 1         ; put the lba to read in this spot
+	dd 0                ; more storage bytes only for big lba's ( > 4 bytes )
 
 times 510-($-$$) db 0
 dw 0xAA55
